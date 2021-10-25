@@ -1,80 +1,80 @@
 
-            *{margin:0; padding: 0; box-sizing: border-box;}
-            body{
-                background:     linear-gradient(
-            rgba(0, 0, 0, 0.1), 
-            rgba(0, 0, 0, 0.1)
-            ), url('/img/grade.jpg');
-                }
+*{margin:0; padding: 0; box-sizing: border-box;}
 
-            form{
+body{
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.1), 
+    rgba(0, 0, 0, 0.1)
+  ), url('/img/grade.jpg');
+}
 
-                background: rgba(0,0,0,0.5);
-                text-align: center;
-                max-width: 500px;
-                width: 700px;
-                height: 450px;
-                padding: 20px;
-                position: absolute;
-                left: 50%;
-                top: 50%;
-                transform: translate(-50%, -50%);
-            }
+form{
+  background: rgba(0,0,0,0.5);
+  height: 450px;
+  left: 50%;
+  max-width: 500px;
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+}
 
-            form h3{
-                text-align: left;
-                margin-left: 50px;
-                font-size: 30px;
-                color: #FFFFFF;
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            }
-            form p{
-                text-align: left;
-                margin-left: 50px;
-                margin-top: 10px;
-                color:  #FFFFFF;
-            }
+form h3{
+  color: #FFFFFF;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  margin-left: 50px;
+  text-align: left;
+}
 
-            i{
-                background: white;
-                color:  #3B579D;
-                font-size: 30px;
-                width: 26px;
-                height: 25px;
-                border-radius: 50%;
+form p{
+  color:  #FFFFFF;
+  margin-left: 50px;
+  margin-top: 10px;
+  text-align: left;
+}
 
-            }
+i{
+  background: white;
+  border-radius: 50%;
+  color:  #3B579D;
+  font-size: 30px;
+  height: 25px;
+  width: 26px;
+}
 
-            form input[type=text],
-            form input[type=password]{
-                width: 80%;
-                height: 50px;
-                border: solid #ccc;
-                padding-left: 10px;
-                margin: 30px 0;
-                border-radius: 5px;
-            }
+form input[type=password],
+form input[type=text]{
+  border: solid #ccc;
+  border-radius: 5px;
+  height: 50px;
+  margin: 30px 0;
+  padding-left: 10px;
+  width: 80%;
+}
 
-            form a {
-                display: block;
-                width: 80%;
-                height: 50px;
-                cursor: pointer;
-                background: #2a09e5;
-                color: white;
-                border: none;
-                border-radius: 5px;
-                margin-top: 30px;
-                margin-left: 50px;
-                padding-top: 10px;
-                font-size: 30px;
-                font-weight: 700;
-                text-decoration: none;
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            }
+form a {
+  background: #2a09e5;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 50px;
+  padding-top: 10px;
+  text-decoration: none;
+  width: 80%;
+}
 
 
-            form a:hover{
-                transition: 1s;
-                background: #230ab1;
-            }
+form a:hover{
+  background: #230ab1;
+  transition: 1s;
+}
